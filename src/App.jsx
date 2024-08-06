@@ -1,12 +1,11 @@
-import Hero from "./components/Hero"
-import NavBar from "./components/NavBar"
+import NavBar from "./components/Navbar/NavBar"
+
 
 function App() {
   
   return (
-    <main className=" font-0 bg-light box-border">
+    <main className=" font-poppins overflow-x-hidden bg-[white] text-dark">
         <NavBar />
-        <Hero />
     </main>
   )
 }

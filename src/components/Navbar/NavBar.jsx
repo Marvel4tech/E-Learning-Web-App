@@ -30,7 +30,7 @@ const navMenu = [
 
 const NavBar = () => {
   return (
-   <nav>
+   <nav className=" relative z-20">
         <div className="container py-10 flex justify-between items-center">
             <div>
                 <h1 className=" font-bold text-2xl">e-Learning Academia</h1>
@@ -45,7 +45,11 @@ const NavBar = () => {
                             </a>
                         </li>
                     ))}
+                    <button className=" primaryBtn">Sign In</button>
                 </ul>
+            </div>
+            <div className=" lg:hidden">
+                <IoMdMenu className=" text-4xl" />
             </div>
 
         </div>

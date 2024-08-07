@@ -4,7 +4,7 @@ import { TbWorldWww } from "react-icons/tb"
 import { IoMdHappy } from "react-icons/io"
 import { BiSupport } from "react-icons/bi"
 import { IoPulseOutline } from "react-icons/io5"
-import { delay, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 const servicesData = [
     {

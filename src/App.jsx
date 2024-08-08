@@ -1,5 +1,6 @@
 import Banner from "./components/Banner/Banner"
 import Banner2 from "./components/Banner/Banner 2"
+import Footer from "./components/Footer/Footer"
 import Hero from "./components/Hero/Hero"
 import Services from "./components/Services/Services"
 import Subscribe from "./components/Subscribe/Subscribe"
@@ -15,6 +16,7 @@ function App() {
         <Banner />
         <Subscribe />
         <Banner2 />
+        <Footer />
     </main>
   )
 }
